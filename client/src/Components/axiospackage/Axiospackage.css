@@ -1,0 +1,47 @@
+.course-row {
+    margin-top: 10px;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+   position: absolute;
+  }
+  
+  .course-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .course-card img {
+    border-radius: 10px 10px 0 0;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .course-details h5, .course-details h6, .course-details p {
+    margin: 5px 0;
+  }
+  
+  .course-details {
+    margin-top: 10px;
+  }
+  
+  .course-details h5 {
+    color: #333;
+  }
+  
+  .course-card .btn {
+    width: 100%;
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .course-card .btn:hover {
+    background-color: #0056b3;
+  }
+  
